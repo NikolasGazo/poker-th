@@ -1,0 +1,30 @@
+div.card > img {
+	display: inline-block;
+	max-width: 150px;
+	max-height: 1.391*max-width;
+	width:  auto;
+	height: auto;
+}
+
+/*row {
+	display:  inline-block;
+}
+
+
+#dealer-hand > div.card {
+	display: inline-block;
+}*/
+
+
+
+@media only screen and (max-width: 300px) {
+
+	div.card > img {
+		display: inline-block;
+		max-width: 50px;
+		max-height: 1.391*max-width;
+		width:  auto;
+		height: auto;
+	}
+
+}
